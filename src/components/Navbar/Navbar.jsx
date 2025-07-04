@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProfileInfo from '../Cards/ProfileInfo';
 import { useNavigate } from 'react-router-dom';
 import Searchbar from '../Searchbar/Searchbar';
-import noteIcon from '../../assets/note-icon.png'; // ✅ import your icon
+import noteIcon from '../../assets/Note-icon.png'; // ✅ import your icon
 
 const Navbar = ({ userInfo, onSearchNote, handleClearSearch }) => {
   const [searchQuery, setSearchQuery] = useState("");
